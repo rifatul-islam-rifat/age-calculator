@@ -11,7 +11,7 @@ function calculateAgeBtn() {
     birthYear = parseInt(birthYear.split("-")[0])
     let age = currentYear - birthYear;
 
-    output.textContent = `Your age is : ${age}`;
+    output.textContent = `Your age is : ${age} years`;
     
 
 
